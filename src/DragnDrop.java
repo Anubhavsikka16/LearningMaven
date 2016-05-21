@@ -31,8 +31,8 @@ public class DragnDrop {
 		Actions dnd=new Actions(driver);
 		
 		dnd.dragAndDrop(drag, drop).perform();
-		
-		
+	
+		driver.quit();
 		
 		
 	}
